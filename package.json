@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint",
-    "format": "prettier --write .",
-    "format:check": "prettier --check ."
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "eslint",
+  "format": "prettier --write .",
+  "format:check": "prettier --check .",
+  "typecheck": "next typegen && tsc --noEmit"
+},
   "dependencies": {
     "next": "16.4.0",
     "react": "19.3.0",
