@@ -1,0 +1,1 @@
+//Aq é pra definir os tipos utilizados pelo sistema (parte de Kaylane)
